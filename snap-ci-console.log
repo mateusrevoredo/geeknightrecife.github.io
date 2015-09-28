@@ -7,14 +7,14 @@ Command [32mgit clone git@localhost:mateusrevoredo/geeknightrecife.github.io .
 $ [32mgit checkout source[0m
 Switched to a new branch 'source'
 Branch source set up to track remote branch source from origin.
-Command [32mgit checkout source[0m exited successfully with status 0. Took 0.11753 seconds.
+Command [32mgit checkout source[0m exited successfully with status 0. Took 0.12281 seconds.
 
-$ [32mgit reset --hard 1fc2732eff6896e0573eb87a0091fef09498a5b6[0m
-HEAD is now at 1fc2732 Remove "become a speaker" links, and wrong twitter feed.
-Command [32mgit reset --hard 1fc2732eff6896e0573eb87a0091fef09498a5b6[0m exited successfully with status 0. Took 0.10515 seconds.
+$ [32mgit reset --hard 96343a7c19d920ca84e820352ff9a3bc0b27eba6[0m
+HEAD is now at 96343a7 Change Google Analytics code
+Command [32mgit reset --hard 96343a7c19d920ca84e820352ff9a3bc0b27eba6[0m exited successfully with status 0. Took 0.10434 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
-Command [32mgit submodule update --init --recursive[0m exited successfully with status 0. Took 0.06948 seconds.
+Command [32mgit submodule update --init --recursive[0m exited successfully with status 0. Took 0.06017 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -22,11 +22,11 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=21
+$ export SNAP_PIPELINE_COUNTER=22
 $ export SNAP_STAGE_NAME=Dependencies
 $ export SNAP_BRANCH=source
-$ export SNAP_COMMIT=1fc2732eff6896e0573eb87a0091fef09498a5b6
-$ export SNAP_COMMIT_SHORT=1fc2732
+$ export SNAP_COMMIT=96343a7c19d920ca84e820352ff9a3bc0b27eba6
+$ export SNAP_COMMIT_SHORT=96343a7
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
@@ -67,27 +67,27 @@ Using maruku 0.7.0
 Using rdiscount 2.1.7
 Using terminal-table 1.5.2
 Using bundler 1.10.6
-Using tzinfo 1.2.2
 Using autoprefixer-rails 6.0.3
 Using parslet 1.5.0
 Using timers 4.0.4
 Using classifier-reborn 2.0.3
 Using coffee-script 2.4.1
+Using compass-core 1.0.3
 Using compass-import-once 1.0.5
 Using jekyll-sass-converter 1.3.0
 Using sass-media_query_combiner 0.0.7
-Using compass-core 1.0.3
+Using tzinfo 1.2.2
 Using rb-inotify 0.9.5
 Using ethon 0.8.0
+Using pygments.rb 0.6.3
 Using nokogiri 1.6.6.2
-Using activesupport 4.2.4
 Using toml 0.1.2
 Using celluloid 0.16.0
 Using jekyll-coffeescript 1.0.1
+Using activesupport 4.2.4
 Using compass 1.0.3
 Using typhoeus 0.8.0
 Using html-pipeline 1.9.0
-Using pygments.rb 0.6.3
 Using listen 2.10.1
 Using github-pages-health-check 0.5.3
 Using jekyll-watch 1.2.1
@@ -98,6 +98,6 @@ Using jemoji 0.5.0
 Using github-pages 39
 Bundle complete! 4 Gemfile dependencies, 65 gems now installed.
 Bundled gems are installed into /var/go/.bundled-gems.
-Command [32mbundle install[0m exited successfully with status 0. Took 1.15 seconds.
+Command [32mbundle install[0m exited successfully with status 0. Took 0.81138 seconds.
 
 Saving console log for later
